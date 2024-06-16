@@ -1,0 +1,93 @@
+body{
+    background-color: #84b8e2;
+    background-image: url("../img/mar.jpeg");
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 160px;
+    background-color: #5b9ebd;
+    border: solid 2px #1c4272;
+    border-radius: 30px;
+    margin-bottom: auto;
+    justify-content:center;
+    color: rgb(255, 255, 255);
+    font-size:larger;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.headerlogo{
+    padding: 30px;
+}
+
+.headertext{
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+    font-size: 4rem;
+}
+
+.headerbuttons{
+    width: 20%;
+    justify-content: center;
+    align-content: center;
+    font-size: 3rem;
+    display: flex;
+}
+
+.descricao{
+    color: #b6eef1;
+    ;
+}
+
+.card_peixe{
+    width: 300px;
+    height: 450px;
+    background-color: #226366;
+    border-radius: 15px;
+    border: solid 2px #09218b;
+    margin: 30px;
+    color: aliceblue;
+}
+
+
+.card_name{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1c4272;
+}
+
+.card_descrip{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.descript_text{
+    width: 100%;
+    height: 80%;
+}
+
+.card_size, .card_local{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-acao:hover{
+    background-color: #221e1e;
+    color: #c30202;
+}
